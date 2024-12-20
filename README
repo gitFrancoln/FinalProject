@@ -1,0 +1,83 @@
+# Proyecto Tienda Talento Tech
+
+## Descripción del Proyecto
+Este proyecto implementa una tienda en línea que permite a los usuarios explorar productos, agregarlos a un carrito de compras, y finalizar su compra. Está construido con tecnología como: HTML, CSS, JavaScript y APIs externas para la carga dinámica de productos de ejemplo.
+
+---
+
+## Funcionalidades
+1. **Exploración de Productos:**
+   - Un carrusel integrado con Boostrap en la página principal muestra imágenes destacadas de productos.
+   - Los productos se cargan dinámicamente desde una API externa y se muestran como tarjetas con detalles como título, descripción y precio.
+
+2. **Carrito de Compras:**
+   - Permite agregar productos desde la lista a un carrito.
+   - Muestra un resumen del carrito con nombre, precio, cantidad y subtotal de los productos seleccionados.
+   - Los datos del carrito se almacenan en `localStorage`.
+
+3. **Acciones del Usuario:**
+   - Limpiar el carrito: Elimina todos los productos y actualiza la vista.
+   - Finalizar compra: Muestra un mensaje de confirmación y vacía el carrito.
+   - Eliminar productos individuales desde el carrito.
+
+4. **Interacción con el Usuario:**
+   - Uso de **SweetAlert2** para mostrar notificaciones agradables y claras (ej. producto agregado, errores al finalizar compra).
+
+5. **Formulario de Contacto:**
+   - Un formulario para que los usuarios envíen mensajes o consultas.
+
+6. **Reseñas:**
+   - Sección de reseñas donde los clientes comparten opiniones sobre los productos.
+
+---
+
+## Tecnologías Utilizadas
+- **Frontend:**
+  - HTML5
+  - CSS3 (con Bootstrap)
+  - JavaScript (manejo de lógica, eventos y API)
+  
+- **Librerías Externas:**
+  - [Bootstrap](https://getbootstrap.com/) 
+  - [SweetAlert2](https://sweetalert2.github.io/) 
+  
+- **API Externa:**
+  - [DummyJSON](https://dummyjson.com/) para obtener los datos a modo ejemplo de los productos.
+
+## Guía de Uso
+1. **Navegación Inicial:**
+   - Abre `index.html` para explorar los productos.
+   - Usá el menú para moverte entre las secciones: Inicio, Productos, Marcas y Lanzamientos.
+
+2. **Agregar Productos al Carrito:**
+   - Hacé clic en "Agregar" dentro de una tarjeta de producto para enviarlo al carrito.
+
+3. **Gestionar el Carrito:**
+   - Dirigite a la página del carrito (`carrito.html`) para revisar los productos agregados.
+   - Podés eliminar productos individuales o limpiar todo el carrito.
+
+4. **Finalizar Compra:**
+   - Hacé clic en "Finalizar Compra" para completar el proceso.
+
+5. **Formulario de Contacto:**
+   - Completá el formulario en la sección correspondiente para enviar consultas.
+
+---
+
+## Instalación
+1. Clona este repositorio o descarga los archivos.
+2. Abrí el archivo `index.html` en un navegador para iniciar la aplicación.
+3. Asegurate de estar conectado a Internet para cargar las dependencias externas como Bootstrap y SweetAlert2.
+
+---
+
+## Créditos
+- Desarrollado por **FRANCO NUÑEZ**.
+- API de productos: [DummyJSON](https://dummyjson.com/).
+
+---
+
+## Mejoras Futuras
+- Incorporar autenticación de usuarios.
+- Implementar un backend para manejar pedidos y almacenar datos.
+- Mejorar la experiencia visual del carrito y añadir funcionalidad de edición de cantidades.
